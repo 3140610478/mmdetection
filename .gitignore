@@ -122,5 +122,6 @@ work_dirs/
 *.py~
 *.sh~
 
-# refs
+# customized
 /refs
+/**/results

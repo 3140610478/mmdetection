@@ -1,7 +1,7 @@
-_base_ = ['mmdet::faster_rcnn/faster-rcnn_r50_fpn_ms-3x_coco.py']
+_base_ = ['mmdet::yolox/yolox_l_8xb8-300e_coco.py']
 
 
-model = dict(roi_head=dict(bbox_head=dict(num_classes=1)))
+model = dict(bbox_head=dict(num_classes=1))
 
 data_root = '../data/'
 train_dataloader = dict(
